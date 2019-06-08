@@ -22,7 +22,7 @@ layout: default
             {% endfor %}
             <br>
             <small class="text-muted">{{ publication.date | date: "%b %-d, %Y"}}</small>
-            <small class="text-muted"><a href="{{ publication.url }}">{{publication.journal}}</a></small>
+            <small class="text-muted"><a href="{{ publication.pub_url }}">{{publication.journal}}</a></small>
         </div>
         <hr>
         {% endfor %}

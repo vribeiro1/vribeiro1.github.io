@@ -6,5 +6,5 @@ authors:
   - "Eduardo Valle"
 journal: "arXiv e-prints"
 date: 2019-06-06
-url: http://arxiv.org/abs/1906.02415"
+pub_url: http://arxiv.org/abs/1906.02415
 ---
