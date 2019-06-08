@@ -3,22 +3,23 @@ layout: default
 ---
 
 <div>
-<h3>
-    Blog
-</h3>
-<hr>
-<div>
-    {% assign post_list_size = site.posts | size %}
-    {% if post_list_size == 0 %}
-        <p>Sorry! There are no posts yet :(</p>
-    {% endif %}
-
-    {% for post in site.posts %}
-    <div>
-        <h5><a href='{{ post.url | relative_url }}'>{{ post.title }}</a></h5>
-        <small class="text-muted">{{ post.date | date: "%b %-d, %Y"}}</small>
-    </div>
+    <h3>
+        Blog
+    </h3>
     <hr>
-    {% endfor %}
-</div>
+    <div>
+        {% assign post_list_size = site.posts | size %}
+        {% if post_list_size == 0 %}
+            <p>Sorry! There are no posts yet :(</p>
+        {% endif %}
+
+        {% assign posts = site.posts | sort: 'date' | reverse %}
+        {% for post in posts %}
+        <div>
+            <h5><a href='{{ post.url | relative_url }}'>{{ post.title }}</a></h5>
+            <small class="text-muted">{{ post.date | date: "%b %-d, %Y"}}</small>
+        </div>
+        <hr>
+        {% endfor %}
+    </div>
 </div>

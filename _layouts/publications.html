@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div>
+    <h3>
+        Publications
+    </h3>
+    <hr>
+    <div>
+        {% assign publication_list_size = site.publications | size %}
+        {% if publication_list_size == 0 %}
+            <p>Sorry! There are no publications yet :(</p>
+        {% endif %}
+
+        {% assign publications = site.publications | sort: 'date' | reverse %}
+        {% for publication in publications %}
+        <div>
+            <h5>{{ publication.title }}</h5>
+            {% for author in publication.authors %}
+                {{ author }}{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+            <br>
+            <small class="text-muted">{{ publication.date | date: "%b %-d, %Y"}}</small>
+            <small class="text-muted"><a href="{{ publication.url }}">{{publication.journal}}</a></small>
+        </div>
+        <hr>
+        {% endfor %}
+    </div>
+</div>
