@@ -9,5 +9,5 @@ authors:
   - "Eduardo Valle"
 journal: "arXiv e-prints"
 date: 2018-08-25
-absurl: https://arxiv.org/abs/1808.08480
+pub_url: https://arxiv.org/abs/1808.08480
 ---
