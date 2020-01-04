@@ -15,16 +15,18 @@ layout: default
 
         {% assign publications = site.publications | sort: 'date' | reverse %}
         {% for publication in publications %}
-        <div>
-            <h5>{{ publication.title }}</h5>
-            {% for author in publication.authors %}
-                {{ author }}{% unless forloop.last %},{% endunless %}
-            {% endfor %}
-            <br>
-            <small class="text-muted">{{ publication.date | date: "%b %-d, %Y"}}</small>
-            <small class="text-muted"><a href="{{ publication.pub_url }}">{{publication.journal}}</a></small>
-        </div>
-        <hr>
+            <div>
+                <h5>{{ publication.title }}</h5>
+                {% for author in publication.authors %}
+                    {{ author }}{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+                {% if publication.description != null %}
+                    <small class="text-muted">{{ publication.description }}</small><br>
+                {% endif %}
+                <small class="text-muted">{{ publication.date | date: "%b %-d, %Y"}}</small>
+                <small class="text-muted"><a href="{{ publication.pub_url }}">{{publication.journal}}</a></small>
+            </div>
+            <hr>
         {% endfor %}
     </div>
 </div>
