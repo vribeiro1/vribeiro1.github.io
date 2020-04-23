@@ -21,8 +21,9 @@ layout: default
                     {{ author }}{% unless forloop.last %},{% endunless %}
                 {% endfor %}
                 {% if publication.description != null %}
-                    <small class="text-muted">{{ publication.description }}</small><br>
+                    <small class="text-muted">{{ publication.description }}</small>
                 {% endif %}
+                <br>
                 <small class="text-muted">{{ publication.date | date: "%b %-d, %Y"}}</small>
                 <small class="text-muted"><a href="{{ publication.pub_url }}">{{publication.journal}}</a></small>
             </div>
