@@ -4,7 +4,7 @@ authors:
   - "Vinicius Ribeiro"
   - "Sandra Avila"
   - "Eduardo Valle"
-journal: "To be published at ISIC Skin Image Analysis Workshop @ CVPR 2020"
+journal: "ISIC Skin Image Analysis Workshop @ CVPR 2020"
 date: 2020-04-28
-pub_url: https://arxiv.org/abs/2004.13856
+pub_url: http://openaccess.thecvf.com/content_CVPRW_2020/html/w42/Ribeiro_Less_Is_More_Sample_Selection_and_Label_Conditioning_Improve_Skin_CVPRW_2020_paper.html
 ---
