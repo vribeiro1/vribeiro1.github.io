@@ -6,6 +6,9 @@ layout: default
     <h3>
         Publications
     </h3>
+    <small class="text-muted">
+        Follow me on <a href="https://scholar.google.com/citations?user=0FLmaIMAAAAJ&hl=en">Google Scholar</a>
+    </small>
     <hr>
     <div>
         {% assign publication_list_size = site.publications | size %}
@@ -14,7 +17,7 @@ layout: default
         {% endif %}
 
         {% assign publications = site.publications | sort: 'date' | reverse %}
-        {% for publication in publications %}
+        {% for publication in publications %}   
             <div>
                 <h5>{{ publication.title }}</h5>
                 {% for author in publication.authors %}
