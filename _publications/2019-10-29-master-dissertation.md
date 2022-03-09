@@ -1,5 +1,5 @@
 ---
-title: "The impact of annotation quality on deep learning for skin lesion segmentation"
+title: "The Impact of Annotation Quality on Deep Learning for Skin Lesion Segmentation"
 authors:
   - "Vinicius Ribeiro"
 journal: "Repositório da Produção Científica e Intelectual da Unicamp"
