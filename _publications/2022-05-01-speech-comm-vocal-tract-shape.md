@@ -8,5 +8,5 @@ authors:
   - "Yves Laprie"
 journal: "To appear in Speech Communication"
 date: 2022-05-01
-pub_url: https://www.vribeiro1.github.io/publications
+pub_url: https://vribeiro1.github.io/publications/
 ---
