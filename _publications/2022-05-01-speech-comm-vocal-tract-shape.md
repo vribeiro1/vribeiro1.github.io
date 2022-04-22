@@ -2,11 +2,11 @@
 title: "Automatic Generation of the Complete Vocal Tract Shape from the Sequence of Phonemes to be Articulated"
 authors:
   - "Vinicius Ribeiro"
-  - "Pierre-André Vuissoz"
   - "Karyna Isaieva"
   - "Justine Leclere"
+  - "Pierre-André Vuissoz"
   - "Yves Laprie"
-journal: "To appear in Speech Communication"
-date: 2022-05-01
-pub_url: https://vribeiro1.github.io/publications/
+journal: "Speech Communication"
+date: 2022-04-22
+pub_url: https://www.sciencedirect.com/science/article/pii/S0167639322000607
 ---
