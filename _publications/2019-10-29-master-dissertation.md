@@ -4,6 +4,6 @@ authors:
   - "Vinicius Ribeiro"
 journal: "Repositório da Produção Científica e Intelectual da Unicamp"
 date: 2019-10-29
-pub_url: http://repositorio.unicamp.br/handle/REPOSIP/335507?locale=en
+pub_url: http://repositorio.unicamp.br/acervo/detalhe/1095160
 description: M. Sc. Dissertation
 ---
