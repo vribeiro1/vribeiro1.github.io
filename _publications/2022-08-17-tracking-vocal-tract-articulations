@@ -1,10 +1,9 @@
 ---
-title: "Automatic Tracking of Vocal Tract Articulators in Real-Time Magnetic Resonance Imaging"
+title: "Automatic Segmentation of Vocal Tract Articulators in Real-Time Magnetic Resonance Imaging"
 authors:
   - "Vinicius Ribeiro"
   - "Karyna Isaieva"
   - "Justine Leclere"
-  - "Romain Karpinski"
   - "Jacques Felblinger"
   - "Pierre-André Vuissoz"
   - "Yves Laprie"
