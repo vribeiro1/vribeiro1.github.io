@@ -18,7 +18,7 @@ layout: default
         {% for item in selling_items %}
         <div>
             <div class="col-md-3">
-                <img src={{ item.photo }} style="border-radius: 100%;" width="200">
+                <img src="{{ item.photo }}" style="border-radius: 100%;" width="200">
             </div>
             <div class="col-md-9">
                 <h5>{{ item.name }} -- {{ item.price }} &euro; -- {{ item.status }}</h5>
