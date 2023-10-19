@@ -1,7 +1,7 @@
 ---
 name: Bike VTT
 price: 200
-photo: https://vribeiro1.github.io/img/sellin_my_stuff/placeholder.png
+photo: https://vribeiro1.github.io/img/selling_my_stuff/placeholder.png
 status: Available
 details:
     - Rockrider
